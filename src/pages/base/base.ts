@@ -1,5 +1,5 @@
 import {Injector } from '@angular/core';
-import { IonicPage, NavController, NavParams,ModalController } from 'ionic-angular';
+import { NavController, NavParams,ModalController } from 'ionic-angular';
 import { VideosProvider as Videos } from '../../providers/videos/videos';
 export class BasePage {
   navCtrl: NavController

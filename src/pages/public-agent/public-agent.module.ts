@@ -1,3 +1,4 @@
+import { ComponentsModule } from './../../components/components.module';
 import { NgModule } from '@angular/core';
 import { IonicPageModule } from 'ionic-angular';
 import { PublicAgentPage } from './public-agent';
@@ -7,6 +8,7 @@ import { PublicAgentPage } from './public-agent';
     PublicAgentPage,
   ],
   imports: [
+    ComponentsModule,
     IonicPageModule.forChild(PublicAgentPage),
   ],
 })

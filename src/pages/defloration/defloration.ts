@@ -8,6 +8,7 @@ import { BasePage } from '../base/base';
   selector: 'page-defloration',
   templateUrl: 'defloration.html',
 })
+
 export class DeflorationPage extends BasePage {
   videos : Videos[];
   constructor(injector: Injector) {

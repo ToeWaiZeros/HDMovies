@@ -14,9 +14,11 @@
 
 
 <ion-content padding class="card-background-page">
-    <ion-card *ngFor='let v of videos' (click)="this.openModal('VidoePlayPage',{video:v})">
-      <img [src] = "v.Image">
-      <div class="card-title"><h1>{{v.Name}}</h1></div>
-      <div class="card-subtitle"><h3>{{v.Type}}</h3></div>
-    </ion-card>
+  <ion-grid>
+    <ion-col col-md-6>
+        <ion-card *ngFor='let v of videos' (click)="this.openModal('VidoePlayPage',{video:v})">
+            <loadvideos [videos]='v'></loadvideos>
+        </ion-card>
+    </ion-col>
+  </ion-grid>
 </ion-content>
