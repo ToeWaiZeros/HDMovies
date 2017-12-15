@@ -19,10 +19,5 @@ export class DeflorationPage extends BasePage {
     this.onLoad('Defloration')
     .then(data=>this.videos=this.videos.concat(data));
   }
-  // onLoad(type:string){
-  //   Videos.onLoad(type)
-  //   .then(data=>this.videos = this.videos.concat(data))
-  //   .catch(error=>console.error(error));
-  // }
   
 }
