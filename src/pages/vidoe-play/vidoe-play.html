@@ -1,0 +1,12 @@
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>{{videos.Name}}</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+  <iframe [src]="getUrl()" scrolling="no" frameborder="0" width="100%" height="100%" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"></iframe>
+</ion-content>
