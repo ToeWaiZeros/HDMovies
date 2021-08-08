@@ -3,7 +3,7 @@
 #EXT-X-TARGETDURATION:36
 #EXT-X-MEDIA-SEQUENCE:0
 #EXTINF:30.000000,
-https://drive.google.com/uc?export=download&id=1-z8ak5J5td2CWpvi3ffLfITPD-FV1kqK
+https://www.googleapis.com/drive/v3/files/1-z8ak5J5td2CWpvi3ffLfITPD-FV1kqK/?alt=media&key=AIzaSyBHPYvBkQdepwVeIySrb3GR6iDQG5xgguE
 #EXTINF:30.000000,
 https://drive.google.com/uc?export=download&id=10-uXQdcHDR0YzmL5xhPy0a7pP3iRWn_r
 #EXTINF:30.000000,
